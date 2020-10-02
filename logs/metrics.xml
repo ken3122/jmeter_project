@@ -1,910 +1,901 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount,Hostname,IdleTime,Connect
-1601660819349,11238894,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660819349,50703,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660819349,5550,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660820349,11277343,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660820350,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660820350,22800,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660821351,11287792,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660821352,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660821352,14904,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660822353,11286539,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660822353,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660822354,4051,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660823354,11287917,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660823354,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660823355,6838,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660824355,11258175,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660824356,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660824356,5864,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660825357,11256621,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660825357,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660825358,4099,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660826359,11256003,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660826360,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660826360,5663,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660827360,11263082,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660827360,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660827361,4875,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660828362,11262425,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660828363,50702,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660828363,5286,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660829363,11279437,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660829363,50701,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660829363,5649,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660830364,11260152,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660830365,50701,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660830365,4295,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660831366,11259996,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660831366,50701,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660831367,4479,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660832367,11259363,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660832368,50701,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660832368,2730,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660833369,11277750,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660833369,50701,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660833369,4689,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660834369,11261437,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660834369,50701,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660834370,8393,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660835371,11261238,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660835372,50701,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660835372,5275,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660836373,11260718,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660836373,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660836373,3493,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660837373,11260710,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660837373,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660837373,4298,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660838375,11302246,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660838375,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660838376,17805,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660839376,11297617,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660839376,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660839377,16715,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660840377,11296589,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660840377,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660840377,3669,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660841378,11267531,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660841378,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660841379,4501,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660842379,11289546,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660842379,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660842379,8013,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660843380,11306312,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660843380,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660843380,4498,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660844381,11268726,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660844381,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660844381,4488,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660845382,11262578,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660845382,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660845382,3855,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660846383,11259402,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660846383,50699,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660846383,6086,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660847384,11259273,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660847384,50699,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660847384,4879,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660848384,11264644,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660848385,50699,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660848385,6388,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660849385,11264808,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660849385,50699,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660849386,7595,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660850387,11261347,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660850387,50699,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660850387,4301,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660851387,11269414,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660851387,50699,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660851387,8376,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660852388,11268144,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660852388,50698,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660852388,4711,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660853389,11259066,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660853389,50698,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660853389,7999,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660854389,11256644,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660854389,50698,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660854389,4876,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660855389,11247277,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660855389,50698,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660855389,3900,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660856390,11252570,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660856390,50698,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660856390,8995,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660857391,11252437,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660857391,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660857391,7201,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660858391,11244945,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660858391,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660858391,6849,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660859391,11244937,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660859391,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660859391,5240,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660860392,11252695,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660860392,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660860392,4692,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660861392,11252773,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660861392,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660861392,2713,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660862392,11243910,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660862392,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660862392,4491,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660863393,11243882,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660863393,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660863393,4288,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660864394,11250675,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660864394,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660864394,4488,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660865395,11252613,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660865395,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660865395,5265,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660866396,11269308,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660866396,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660866396,4110,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660867396,11274492,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660867396,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660867396,3125,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660868396,11249457,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660868396,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660868396,5838,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660869397,11248566,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660869397,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660869397,3891,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660870397,11256320,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660870397,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660870397,5475,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660871398,11256503,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660871398,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660871398,2737,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660872398,11253839,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660872398,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660872398,3113,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660873399,11253640,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660873399,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660873399,4665,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660874400,11252886,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660874400,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660874400,5806,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660875400,11261613,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660875400,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660875400,6049,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660876401,11256093,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660876401,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660876401,4286,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660877401,11256085,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660877401,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660877401,2932,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660878402,11256089,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660878402,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660878402,4481,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660879403,11257074,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660879403,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660879403,26893,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660880404,11299117,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660880404,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660880404,16503,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660881404,11305949,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660881404,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660881404,24357,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660882405,11301433,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660882405,50694,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660882405,6826,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660883406,11278906,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660883406,50694,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660883406,6071,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660884406,11278640,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660884406,50694,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660884406,4306,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660885407,11285273,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660885407,50693,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660885407,7174,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660886407,11283816,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660886407,50693,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660886407,6435,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660887408,11281933,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660887408,50693,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660887408,4898,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660888409,11265550,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660888409,50693,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660888409,6799,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660889409,11251925,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660889409,50693,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660889409,9754,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660890410,11248281,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660890410,50692,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660890410,7603,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660891411,11248031,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660891411,50692,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660891411,3729,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660892411,11246433,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660892411,50692,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660892411,5440,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660893411,11248519,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660893411,50692,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660893411,7032,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660894412,11268101,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660894412,50692,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660894412,5276,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660895413,11251238,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660895413,50691,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660895413,5263,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660896414,11246312,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660896414,50691,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660896414,2925,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660897415,11246289,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660897415,50691,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660897415,4886,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660898415,11246921,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660898415,50691,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660898415,3280,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660899416,11245535,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660899416,50690,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660899416,5113,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660900416,11245238,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660900416,50690,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660900416,4281,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660901416,11251843,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660901416,50690,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660901416,12318,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660902417,11253605,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660902417,50689,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660902417,6027,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660903418,11268683,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660903418,50689,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660903418,3906,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660904419,11250109,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660904419,50689,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660904419,5872,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660905419,11247882,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660905419,50690,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660905419,4279,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660906420,11246984,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660906420,50689,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660906420,5650,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660907420,11246824,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660907420,50689,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660907420,5075,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660908421,11246015,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660908421,50688,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660908421,4490,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660909421,11241179,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660909421,50688,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660909421,3512,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660910422,11255394,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660910422,50688,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660910422,6028,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660911423,11255898,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660911423,50687,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660911423,6755,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660912423,11263074,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660912423,50687,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660912423,5051,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660913423,11254070,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660913423,50687,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660913423,6062,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660914423,11247644,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660914423,50687,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660914423,4898,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660915424,11250867,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660915424,50686,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660915424,4301,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660916424,11248347,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660916424,50686,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660916424,4886,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660917424,11247656,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660917424,50686,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660917424,5274,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660918425,11246253,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660918425,50686,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660918425,4676,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660919425,11246320,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660919425,50685,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660919425,4887,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660920426,11248472,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660920426,50685,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660920426,4088,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660921427,11318468,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660921427,50685,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660921427,17465,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660922427,11310304,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660922427,50685,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660922427,21616,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660923428,11338820,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660923428,50684,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660923428,6969,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660924428,11307894,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660924428,50684,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660924428,8215,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660925428,11307140,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660925428,50684,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660925428,7738,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660926429,11310332,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660926429,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660926429,12880,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660927429,11335777,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660927429,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660927429,16957,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660928430,11345976,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660928430,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660928430,19032,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660929430,11341683,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660929430,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660929430,7410,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660930431,11339046,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660930431,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660930431,7209,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660931431,11338902,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660931431,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660931431,6587,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660932431,11350062,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660932431,50682,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660932431,7607,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660933432,11358812,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660933432,50682,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660933432,9945,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660934432,11359851,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660934432,50681,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660934432,12436,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660935433,11361375,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660935433,50682,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660935433,5979,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660936434,11363664,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660936434,50681,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660936434,14809,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660937434,11370660,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660937434,50681,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660937434,11151,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660938435,11367886,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660938435,50681,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660938435,21955,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660939435,11356726,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660939435,50680,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660939435,8339,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660940436,11400488,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660940436,50680,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660940436,29869,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660941437,11402554,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660941437,50680,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660941437,6260,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660942437,11372585,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660942437,50679,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660942437,7428,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660943437,11372324,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660943437,50679,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660943437,6804,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660944437,11371460,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660944437,50679,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660944437,7016,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660945437,11368160,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660945437,50678,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660945437,11325,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660946438,11365343,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660946438,50678,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660946438,7834,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660947439,11368097,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660947439,50677,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660947439,9334,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660948439,11326375,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660948439,50677,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660948439,10288,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660949440,11320507,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660949440,50677,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660949440,10938,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660950440,11335539,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660950440,50677,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660950440,9169,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660951440,11389445,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660951440,50676,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660951440,21882,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660952440,11403046,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660952440,50676,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660952440,16981,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660953440,11384902,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660953440,50676,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660953440,6250,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660954441,11389859,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660954441,50675,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660954441,13834,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660955441,11374402,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660955441,50675,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660955441,9327,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660956442,11369261,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660956442,50674,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660956442,10182,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660957442,11372746,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660957442,50674,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660957442,6625,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660958443,11370378,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660958443,50674,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660958443,8225,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660959444,11370246,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660959444,50673,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660959444,4854,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660960444,11370328,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660960444,50673,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660960444,6249,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660961444,11407898,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660961444,50673,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660961444,8386,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660962445,11370480,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660962445,50673,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660962445,6462,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660963446,11362597,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660963446,50672,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660963446,6213,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660964446,11359410,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660964446,50672,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660964446,6761,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660965447,11366683,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660965447,50672,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660965447,6599,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660966448,11384972,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660966448,50671,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660966448,6647,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660967448,11389621,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660967448,50671,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660967448,5839,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660968448,11389492,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660968448,50671,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660968448,7399,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660969448,11371488,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660969448,50671,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660969448,7826,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660970448,11389070,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660970448,50670,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660970448,6061,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660971449,11380761,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660971449,50669,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660971449,5086,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660972450,11380531,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660972450,50669,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660972450,6825,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660973451,11380128,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660973451,50669,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660973451,5264,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660974451,11379089,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660974451,50668,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660974451,6258,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660975452,11386914,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660975452,50668,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660975452,5064,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660976452,11387535,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660976452,50668,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660976452,5274,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660977452,11439234,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660977452,50668,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660977452,19288,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660978453,11428656,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660978453,50667,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660978453,15221,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660979454,11410285,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660979454,50667,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660979454,6037,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660980455,11427351,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660980455,50667,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660980455,7625,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660981455,11426832,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660981455,50666,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660981455,5473,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660982455,11423839,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660982455,50666,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660982455,4301,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660983455,11451054,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660983455,50666,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660983455,8586,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660984456,11450117,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660984456,50666,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660984457,3912,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660985457,11426855,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660985457,50665,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660985457,8001,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660986458,11409390,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660986458,50665,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660986458,11039,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660987459,11409347,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660987459,50664,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660987459,8210,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660988459,11407648,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660988459,50664,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660988459,3700,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660989460,11414964,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660989460,50664,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660989460,5462,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660990460,11414957,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660990460,50664,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660990460,3913,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660991460,11417726,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660991460,50663,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660991460,7998,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660992460,11417320,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660992460,50663,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660992460,6840,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660993461,11424046,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660993461,50663,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660993461,8317,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660994461,11430660,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660994461,50662,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660994461,7740,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660995461,11437953,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660995461,50662,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660995461,8968,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660996461,11446328,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660996461,50661,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660996461,7994,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660997462,11443867,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660997462,50661,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660997462,7214,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660998462,11456199,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660998462,50661,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660998462,4322,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660999463,11459644,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660999463,50661,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601660999463,5665,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661000463,11462808,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661000463,50660,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661000463,7594,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661001463,11457679,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661001463,50659,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661001463,6429,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661002464,11452550,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661002464,50659,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661002464,8009,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661003464,11452390,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661003464,50659,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661003464,6051,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661004465,11485558,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661004465,50658,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661004465,13250,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661005466,11486113,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661005466,50657,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661005466,5873,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661006467,11486136,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661006467,50657,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661006467,7025,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661007467,11486332,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661007467,50657,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661007467,7600,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661008468,11483054,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661008468,50656,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661008468,9388,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661009469,11493003,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661009469,50656,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661009469,13602,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661010469,11499414,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661010469,50655,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661010469,24234,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661011469,11499824,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661011469,50655,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661011469,9163,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661012470,11489968,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661012470,50655,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661012470,8590,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661013470,11495207,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661013470,50654,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661013470,11137,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661014471,11502593,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661014471,50654,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661014471,8001,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661015471,11502507,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661015471,50653,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661015471,6472,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661016472,11497609,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661016472,50653,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661016472,5838,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661017473,11497710,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661017473,50652,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661017473,5686,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661018473,11508238,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661018473,50652,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661018473,8375,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661019474,11502140,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661019474,50651,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661019474,4871,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661020475,11421703,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661020475,50651,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661020475,7553,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661021475,11428269,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661021475,50650,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661021475,6425,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661022476,11427925,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661022476,50650,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661022476,7439,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661023476,11436253,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661023476,50650,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661023476,6622,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661024477,11436519,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661024477,50650,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661024477,5038,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661025477,11443527,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661025477,50649,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661025477,7055,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661026478,11440101,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661026478,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661026478,7410,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661027478,11447664,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661027478,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661027478,7922,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661028478,11450046,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661028478,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661028478,5463,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661029478,11449277,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661029478,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661029478,5499,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661030479,11449246,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661030479,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661030479,5230,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661031479,11455886,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661031479,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661031479,16812,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661032480,11455824,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661032480,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661032480,8011,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661033480,11463667,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661033480,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661033480,6399,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661034481,11463988,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661034481,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661034481,6450,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661035481,11467410,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661035481,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661035481,6614,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661036481,11511980,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661036481,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661036481,18882,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661037481,11518125,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661037481,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661037481,18470,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661038482,11519703,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661038482,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661038482,8786,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661039483,11521042,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661039483,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661039483,8388,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661040484,11504445,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661040484,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661040484,8223,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661041484,11505687,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661041484,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661041484,8787,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661042484,11512468,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661042484,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661042484,6648,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661043485,11512824,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661043485,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661043485,4687,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661044485,11514667,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661044485,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661044485,6788,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661045485,11512753,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661045485,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661045485,11547,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661046485,11513824,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661046485,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661046485,8759,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661047485,11512886,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661047485,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661047485,6412,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661048486,11523457,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661048486,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661048486,6862,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661049487,11525398,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661049487,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661049487,6437,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661050487,11526906,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661050487,50638,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661050487,9373,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661051488,11560179,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661051488,50638,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661051488,8554,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661052488,11579355,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661052488,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661052488,25447,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661053489,11567011,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661053489,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661053489,33583,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661054489,11586160,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661054489,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661054489,15607,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661055490,11601601,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661055490,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661055490,27313,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661056490,11601121,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661056490,50635,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661056490,6826,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661057491,11600160,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661057491,50635,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661057491,8056,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661058491,11622796,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661058491,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661058491,10234,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661059492,11623726,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661059492,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661059492,8949,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661060493,11632613,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661060493,50633,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661060493,13197,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661061494,11614628,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661061494,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661061494,7796,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661062494,11606882,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661062494,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661062494,6240,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661063495,11585777,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661063495,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661063495,8808,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661064495,11581195,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661064495,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661064495,10316,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661065496,11588210,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661065496,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661065496,7438,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661066496,11590871,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661066496,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661066496,6449,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661067497,11595703,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661067497,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661067497,5262,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661068497,11594183,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661068497,50629,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661068497,5067,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661069498,11602738,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661069498,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661069498,7398,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661070498,11611402,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661070498,50700,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661070498,7425,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661071498,11618136,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661071498,50699,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661071498,7633,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661072498,11619867,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661072498,50698,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661072498,7000,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661073499,11626988,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661073499,50698,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661073499,9162,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661074499,11627468,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661074499,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661074499,13089,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661075500,11634175,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661075500,50697,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661075500,8968,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661076500,11640937,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661076500,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661076500,7811,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661077501,11643843,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661077501,50696,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661077501,10341,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661078502,11643949,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661078502,50695,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661078502,7791,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661079502,11650171,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661079502,50694,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661079502,9575,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661080503,11654851,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661080503,50694,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661080503,10727,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661081503,11658917,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661081503,50694,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661081503,8622,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661082503,11659238,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661082503,50693,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661082503,10523,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661083503,11667789,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661083503,50693,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661083503,6403,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661084503,11669253,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661084503,50692,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661084503,8012,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661085504,11678546,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661085504,50691,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661085504,6635,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661086505,11719207,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661086505,50691,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661086506,28328,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661087507,11722339,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661087507,50690,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661087507,11575,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661088507,11753039,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661088507,50690,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661088507,8942,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661089508,11725933,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661089508,50689,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661089508,10538,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661090509,11720394,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661090509,50688,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661090509,9563,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661091509,11718640,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661091509,50688,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661091509,12287,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661092509,11719972,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661092509,50687,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661092509,10940,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661093509,11720406,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661093509,50687,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661093509,9172,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661094509,11704933,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661094509,50686,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661094509,13275,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661095510,11704386,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661095510,50685,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661095510,12500,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661096511,11697210,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661096511,50685,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661096511,11136,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661097512,11696093,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661097512,50685,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661097512,9548,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661098513,11698414,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661098513,50684,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661098514,14471,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661099515,11710597,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661099515,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661099515,25473,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661100515,11708738,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661100515,50683,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661100515,15614,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661101515,11707515,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661101515,50682,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661101515,8997,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661102516,11697648,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661102516,50682,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661102516,21277,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661103516,11696335,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661103516,50681,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661103516,8007,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661104516,11744988,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661104516,50680,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661104516,29241,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661105517,11733992,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661105517,50679,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661105517,9564,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661106517,11725351,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661106517,50679,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661106517,6036,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661107518,11720425,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661107518,50679,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661107518,29312,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661108519,11716406,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661108519,50678,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661108519,6638,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661109520,11715925,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661109520,50678,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661109520,6236,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661110520,11708835,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661110520,50677,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661110520,8958,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661111521,11708828,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661111521,50677,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661111521,9175,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661112521,11703273,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661112521,50676,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661112521,12301,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661113522,11703351,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661113522,50675,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661113522,11520,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661114522,11702277,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661114522,50675,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661114522,8936,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661115523,11702296,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661115523,50675,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661115523,7060,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661116523,11701335,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661116523,50674,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661116523,7754,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661117523,11708886,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661117523,50673,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661117523,10224,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661118524,11726492,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661118524,50673,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661118524,11538,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661119524,11726535,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661119524,50672,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661119524,8000,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661120525,11721789,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661120525,50672,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661120525,6449,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661121525,11713027,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661121525,50672,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
-1601661121525,3112,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665985198,11269652,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665985199,50649,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665985199,7771,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665986199,11269863,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665986199,50649,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665986200,4122,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665987201,11265785,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665987201,50649,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665987201,5264,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665988203,11265746,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665988203,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665988204,5041,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665989205,11265835,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665989205,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665989205,4866,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665990206,11273683,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665990206,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665990206,5664,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665991208,11269109,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665991208,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665991208,4689,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665992208,11285300,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665992208,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665992208,6450,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665993209,11284683,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665993209,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665993209,5274,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665994209,11284750,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665994209,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665994209,3125,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665995209,11283781,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665995210,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665995210,4875,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665996210,11282898,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665996210,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665996210,7235,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665997211,11282093,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665997211,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665997211,4686,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665998211,11282085,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665998211,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665998212,4889,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665999212,11281867,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665999212,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601665999213,3500,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666000214,11281886,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666000214,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666000214,5673,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666001215,11279062,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666001215,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666001215,6038,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666002215,11278562,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666002215,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666002215,5075,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666003215,11282339,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666003215,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666003215,4277,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666004216,11282714,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666004216,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666004216,5661,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666005217,11281222,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666005217,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666005218,8401,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666006218,11280378,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666006218,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666006218,4677,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666007220,11279835,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666007220,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666007220,4887,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666008220,11282410,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666008221,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666008221,16602,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666009221,11276617,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666009221,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666009222,29971,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666010223,11276617,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666010224,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666010224,4075,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666011225,11274992,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666011225,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666011225,4911,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666012225,11274070,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666012225,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666012225,5250,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666013226,11274585,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666013226,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666013226,4899,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666014227,11274773,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666014228,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666014228,4868,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666015229,11274375,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666015229,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666015229,5222,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666016230,11269140,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666016230,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666016230,4695,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666017230,11268726,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666017231,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666017231,7198,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666018232,11274226,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666018232,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666018233,8178,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666019233,11274609,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666019234,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666019234,5850,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666020235,11275347,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666020235,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666020235,5075,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666021237,11271066,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666021238,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666021238,4096,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666022238,11270226,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666022239,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666022239,4475,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666023239,11270589,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666023239,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666023240,5474,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666024241,11270714,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666024241,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666024241,3737,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666025242,11270835,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666025242,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666025242,5639,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666026243,11270773,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666026243,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666026244,5461,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666027244,11270851,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666027244,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666027245,5697,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666028246,11272117,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666028246,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666028246,6403,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666029247,11271609,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666029249,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666029249,4514,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666030249,11271156,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666030261,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666030261,3100,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666031261,11269921,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666031261,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666031261,6050,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666032262,11273839,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666032262,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666032262,6438,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666033263,11272910,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666033263,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666033263,3536,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666034263,11272886,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666034263,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666034263,4100,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666035264,11269636,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666035292,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666035292,8000,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666036293,11268960,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666036293,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666036293,3524,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666037293,11270277,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666037293,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666037293,3706,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666038293,11270664,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666038293,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666038293,5264,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666039294,11269609,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666039294,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666039294,3737,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666040294,11269625,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666040294,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666040294,3668,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666041295,11268957,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666041295,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666041295,4111,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666042295,11270433,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666042295,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666042295,3712,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666043295,11269656,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666043295,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666043295,4256,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666044296,11269761,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666044296,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666044296,5298,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666045297,11271820,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666045327,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666045327,9160,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666046328,11272332,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666046328,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666046328,4886,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666047329,11272058,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666047329,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666047329,6837,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666048329,11271433,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666048329,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666048329,6599,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666049329,11269753,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666049329,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666049329,5423,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666050330,11270582,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666050330,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666050330,5251,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666051331,11270718,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666051332,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666051332,7613,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666052332,11271609,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666052332,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666052332,3900,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666053332,11270812,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666053332,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666053332,4306,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666054332,11270503,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666054332,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666054332,8356,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666055333,11270246,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666055361,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666055361,6625,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666056362,11271484,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666056362,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666056362,5277,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666057363,11270964,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666057363,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666057363,7781,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666058363,11270214,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666058371,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666058371,5675,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666059372,11269839,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666059372,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666059372,5826,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666060372,11270640,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666060374,50638,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666060374,7016,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666061374,11270542,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666061375,50638,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666061375,5672,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666062376,11269750,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666062381,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666062381,5263,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666063381,11269171,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666063384,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666063384,6836,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666064384,11270171,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666064388,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666064388,6064,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666065389,11270953,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666065391,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666065391,7247,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666066391,11269839,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666066394,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666066394,5838,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666067395,11265570,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666067399,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666067399,7016,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666068399,11264652,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666068400,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666068400,8996,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666069400,11265285,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666069401,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666069401,6458,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666070402,11266148,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666070404,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666070404,4853,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666071405,11264988,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666071407,50635,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666071407,6051,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666072407,11265000,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666072411,50635,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666072411,4878,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666073411,11265046,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666073414,50635,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666073414,6822,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666074415,11270289,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666074417,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666074417,9376,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666075417,11267730,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666075418,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666075418,4678,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666076419,11266875,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666076422,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666076422,4863,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666077422,11263960,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666077426,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666077426,6260,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666078426,11263410,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666078429,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666078430,7188,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666079431,11265265,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666079432,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666079432,8500,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666080433,11265406,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666080440,50633,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666080440,5065,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666081441,11264152,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666081441,50633,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666081441,13090,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666082442,11264433,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666082442,50633,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666082442,10350,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666083443,11265203,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666083443,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666083443,5861,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666084444,11269417,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666084444,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666084444,4480,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666085444,11267941,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666085444,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666085444,7048,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666086444,11267050,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666086444,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666086444,5860,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666087445,11267121,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666087445,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666087445,7602,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666088445,11267140,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666088445,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666088445,5053,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666089446,11267296,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666089446,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666089446,5275,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666090446,11267437,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666090446,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666090446,6449,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666091447,11267242,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666091452,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666091452,8986,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666092452,11267242,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666092452,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666092452,2738,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666093453,11266324,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666093453,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666093453,6812,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666094453,11266355,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666094453,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666094453,7259,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666095453,11265628,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666095453,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666095453,6813,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666096453,11270132,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666096453,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666096453,7410,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666097454,11268503,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666097454,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666097454,5274,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666098455,11268472,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666098455,50629,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666098455,3717,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666099455,11268339,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666099455,50629,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666099455,7399,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666100456,11268238,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666100456,50629,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666100456,4112,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666101456,11267839,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666101456,50628,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666101456,6451,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666102458,11267730,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666102491,50628,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666102491,5450,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666103491,11267945,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666103491,50628,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666103492,6238,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666104493,11269765,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666104493,50627,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666104493,6622,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666105494,11268914,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666105504,50627,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666105505,7213,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666106506,11269808,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666106506,50627,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666106506,8869,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666107506,11270039,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666107506,50627,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666107506,6635,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666108506,11272460,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666108506,50626,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666108506,5631,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666109506,11267839,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666109506,50626,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666109506,6624,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666110507,11267808,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666110507,50626,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666110507,5464,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666111507,11268449,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666111507,50626,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666111507,6246,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666112509,11267644,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666112509,50625,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666112509,5664,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666113509,11267644,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666113509,50625,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666113509,4451,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666114510,11266972,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666114510,50625,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666114510,9385,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666115511,11266726,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666115511,50624,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666115511,9180,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666116511,11266484,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666116511,50624,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666116511,6626,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666117511,11271398,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666117511,50624,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666117511,6670,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666118512,11271800,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666118512,50623,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666118512,6214,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666119512,11267855,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666119512,50623,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666119512,5463,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666120513,11266949,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666120513,50623,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666120513,7408,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666121514,11275214,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666121514,50622,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666121514,7994,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666122514,11275218,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666122514,50622,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666122514,8386,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666123515,11272949,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666123515,50621,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666123515,7414,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666124515,11272695,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666124515,50621,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666124515,6061,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666125515,11270855,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666125515,50621,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666125515,11909,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666126516,11270531,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666126516,50620,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666126516,5474,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666127516,11266093,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666127516,50620,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666127516,6650,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666128517,11264722,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666128517,50620,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666128517,4077,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666129517,11261503,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666129517,50620,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666129517,5874,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666130517,11260738,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666130517,50619,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666130517,6450,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666131517,11260515,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666131517,50619,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666131517,6625,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666132518,11263726,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666132518,50619,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666132518,5453,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666133519,11267707,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666133520,50618,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666133520,10530,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666134521,11268093,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666134521,50618,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666134521,7234,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666135522,11271187,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666135522,50618,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666135522,8389,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666136522,11265531,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666136522,50617,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666136522,7495,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666137523,11262652,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666137523,50617,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666137523,8172,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666138524,11262218,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666138524,50617,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666138524,6661,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666139524,11262148,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666139524,50616,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666139524,6788,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666140525,11262410,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666140525,50616,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666140525,5874,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666141525,11266320,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666141525,50615,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666141525,8808,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666142525,11270218,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666142526,50615,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666142526,5240,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666143527,11269035,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666143527,50615,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666143527,7426,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666144529,11269527,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666144529,50614,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666144529,5285,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666145530,11269921,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666145530,50614,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666145530,7214,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666146531,11261648,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666146531,50614,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666146531,7223,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666147533,11257480,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666147533,50614,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666147533,5850,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666148533,11257449,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666148533,50613,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666148533,6450,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666149533,11257390,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666149533,50613,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666149533,7636,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666150534,11258234,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666150535,50613,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666150535,6216,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666151535,11256511,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666151536,50612,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666151536,3686,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666152536,11256363,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666152536,50612,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666152536,6085,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666153538,11255164,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666153538,50611,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666153539,8177,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666154539,11255308,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666154539,50611,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666154539,7785,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666155541,11255234,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666155541,50611,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666155541,6060,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666156542,11255105,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666156543,50610,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666156543,6049,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666157543,11254199,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666157543,50610,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666157544,5088,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666158544,11254753,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666158544,50610,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666158545,7756,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666159545,11256957,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666159545,50609,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666159546,6087,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666160546,11257515,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666160547,50609,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666160547,5649,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666161548,11254550,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666161549,50609,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666161549,7985,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666162550,11254445,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666162551,50609,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666162551,5465,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666163551,11255894,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666163552,50608,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666163552,9899,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666164552,11259632,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666164553,50608,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666164553,8998,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666165553,11255953,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666165554,50607,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666165554,7599,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666166555,11255773,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666166571,50607,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666166571,6437,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666167571,11255101,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666167572,50606,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666167572,7025,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666168573,11255089,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666168574,50606,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666168574,8022,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666169574,11255531,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666169575,50606,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666169575,7493,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666170575,11255796,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666170576,50605,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666170576,9154,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666171578,11254664,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666171578,50605,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666171578,6813,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666172579,11253828,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666172580,50604,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666172580,9357,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666173580,11253925,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666173581,50604,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666173581,6450,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666174581,11254421,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666174582,50603,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666174582,6636,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666175582,11254683,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666175583,50603,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666175583,6423,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666176583,11253523,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666176583,50603,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666176583,8225,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666177584,11254925,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666177585,50602,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666177585,8155,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666178585,11254441,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666178586,50602,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666178586,5463,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666179586,11253785,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666179587,50601,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666179587,7605,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666180589,11252496,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666180589,50601,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666180589,7620,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666181589,11251085,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666181590,50600,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666181590,5464,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666182590,11253000,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666182590,50600,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666182590,11538,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666183591,11252707,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666183591,50600,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666183591,7010,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666184591,11254656,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666184591,50599,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666184591,10309,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666185592,11251812,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666185593,50599,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666185593,8223,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666186594,11252304,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666186594,50598,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666186594,7799,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666187594,11257734,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666187594,50598,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666187594,10319,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666188595,11257796,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666188596,50597,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666188596,9198,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666189596,11257089,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666189596,50597,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666189596,7224,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666190596,11256781,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666190597,50596,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666190597,6823,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666191598,11256046,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666191599,50596,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666191599,9577,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666192599,11273429,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666192599,50596,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666192599,16204,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666193601,11277417,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666193634,50595,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666193634,7618,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666194635,11279964,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666194635,50595,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666194635,5251,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666195635,11282746,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666195635,50594,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666195635,7438,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666196636,11284671,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666196636,50594,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666196636,6412,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666197637,11295253,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666197637,50593,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666197637,10319,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666198638,11297859,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666198638,50593,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666198638,6825,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666199639,11304316,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666199639,50592,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666199639,13110,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666200639,11304414,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666200639,50592,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666200639,8749,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666201639,11316343,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666201639,50592,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666201639,8581,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666202639,11321394,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666202639,50591,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666202639,6375,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666203639,11323375,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666203639,50591,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666203639,9769,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666204640,11325929,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666204640,50590,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666204640,10552,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666205640,11326390,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666205640,50590,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666205640,8296,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666206640,11337433,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666206640,50590,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666206640,10718,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666207641,11340582,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666207641,50589,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666207641,9576,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666208642,11345296,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666208642,50588,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666208642,7967,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666209643,11345273,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666209643,50588,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666209643,8170,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666210643,11347128,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666210643,50588,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666210643,8195,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666211643,11353804,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666211643,50587,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666211643,8521,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666212643,11359980,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666212643,50587,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666212643,9182,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666213644,11359835,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666213645,50586,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666213645,6838,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666214645,11359929,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666214645,50586,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666214645,5461,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666215647,11364933,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666215647,50586,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666215647,9756,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666216648,11369761,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666216648,50585,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666216648,9741,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666217648,11372476,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666217648,50585,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666217649,9148,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666218650,11376207,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666218650,50584,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666218650,9193,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666219651,11378832,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666219651,50583,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666219651,7419,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666220651,11382710,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666220651,50583,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666220651,7624,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666221651,11389359,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666221651,50583,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666221651,8780,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666222652,11391882,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666222652,50583,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666222652,7022,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666223653,11392453,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666223653,50582,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666223653,8774,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666224653,11394054,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666224653,50582,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666224653,8587,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666225654,11394285,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666225654,50581,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666225654,10551,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666226654,11393753,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666226654,50581,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666226654,6836,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666227655,11406804,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666227655,50651,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666227655,10934,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666228655,11406917,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666228655,50650,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666228655,7612,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666229655,11404652,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666229655,50650,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666229655,9761,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666230656,11404105,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666230656,50649,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666230656,9743,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666231657,11405566,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666231671,50649,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666231671,8988,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666232672,11405500,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666232672,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666232672,7422,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666233672,11405265,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666233672,50648,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666233672,9751,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666234672,11403082,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666234672,50647,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666234672,10158,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666235673,11402953,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666235673,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666235673,10144,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666236674,11402621,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666236674,50646,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666236674,9344,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666237675,11401539,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666237675,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666237675,8759,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666238675,11401476,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666238675,50645,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666238675,9935,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666239677,11401964,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666239678,50644,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666239678,11412,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666240678,11403378,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666240678,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666240678,10844,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666241679,11405289,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666241679,50643,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666241679,10505,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666242679,11405121,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666242679,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666242679,11926,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666243679,11401113,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666243679,50642,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666243679,10337,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666244681,11401085,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666244681,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666244681,9520,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666245681,11401156,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666245681,50641,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666245681,12915,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666246681,11401160,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666246709,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666246709,8984,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666247709,11400238,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666247709,50640,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666247709,9175,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666248709,11399230,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666248709,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666248709,9563,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666249710,11400269,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666249710,50639,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666249710,8799,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666250711,11399335,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666250711,50638,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666250711,33579,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666251712,11396289,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666251712,50638,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666251712,8762,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666252713,11395269,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666252714,50637,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666252714,6660,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666253714,11395414,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666253714,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666253714,9562,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666254715,11400390,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666254715,50636,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666254715,11426,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666255715,11394910,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666255715,50635,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666255715,11147,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666256716,11393394,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666256716,50635,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666256716,10142,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666257717,11388582,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666257717,50634,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666257717,11898,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666258717,11396011,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666258734,50633,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666258735,14424,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666259735,11395675,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666259735,50633,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666259735,14850,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666260735,11394593,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666260735,50632,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666260735,8398,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666261735,11390519,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666261735,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666261735,9754,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666262736,11390414,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666262736,50631,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666262736,10696,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666263736,11389933,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666263736,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666263736,10558,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666264737,11390937,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666264737,50630,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666264737,10938,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666265737,11389023,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666265737,50629,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666265737,11911,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666266737,11396917,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666266737,50629,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666266737,12428,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666267737,11412972,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666267737,50628,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666267737,7636,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666268738,11416082,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666268738,50628,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666268738,12658,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666269738,11411621,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666269738,50627,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666269738,8584,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666270738,11394925,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666270738,50627,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666270738,13315,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666271739,11392421,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666271739,50626,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666271739,10676,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666272740,11401226,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666272740,50626,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666272740,18762,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666273741,11401667,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666273741,50625,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666273741,6411,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666274741,11400488,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666274741,50625,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666274741,10729,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666275742,11398214,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666275743,50624,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666275743,9586,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666276744,11397722,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666276744,50623,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666276744,13267,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666277744,11398007,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666277744,50623,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666277744,10736,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666278745,11397457,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666278745,50622,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666278745,9389,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666279745,11397230,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666279745,50622,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666279745,10486,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666280745,11399695,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666280745,50621,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666280745,11723,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666281746,11401644,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666281746,50621,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666281746,11645,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666282747,11401625,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666282747,50620,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666282747,8381,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666283747,11401378,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666283747,50620,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666283747,13482,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666284747,11401355,localhost Memory unit=mb:used,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666284747,50619,localhost Disks I/O unit=mb:available,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
+1601666284747,12101,localhost CPU user,,,,,true,,0,0,0,0,null,0,1,0,home-pc,0,0
