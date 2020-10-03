@@ -28,6 +28,11 @@
             <stringProp name="Argument.value">localhost</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="CURRENT_TIME" elementType="Argument">
+            <stringProp name="Argument.name">CURRENT_TIME</stringProp>
+            <stringProp name="Argument.value">${__time(DD-MM-yyyy--HHmmss)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -503,8 +508,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">240</stringProp>
+        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">120</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -512,173 +517,162 @@
       </ThreadGroup>
       <hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UC_02_sendComment" enabled="true">
-          <boolProp name="TransactionController.parent">true</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="connect_to_server" enabled="true">
-            <boolProp name="TransactionController.includeTimers">false</boolProp>
-            <boolProp name="TransactionController.parent">false</boolProp>
-          </TransactionController>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="connect_to_server" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="connect_to_server" enabled="true">
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-                <collectionProp name="Arguments.arguments"/>
-              </elementProp>
-              <stringProp name="HTTPSampler.domain"></stringProp>
-              <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol">http</stringProp>
-              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-              <stringProp name="HTTPSampler.path">/</stringProp>
-              <stringProp name="HTTPSampler.method">GET</stringProp>
-              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-              <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            </HTTPSamplerProxy>
-            <hashTree>
-              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="connect_to_server_HTTP_Header" enabled="true">
-                <collectionProp name="HeaderManager.headers">
-                  <elementProp name="Accept-Language" elementType="Header">
-                    <stringProp name="Header.name">Accept-Language</stringProp>
-                    <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
-                  </elementProp>
-                  <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
-                    <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
-                    <stringProp name="Header.value">1</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept-Encoding" elementType="Header">
-                    <stringProp name="Header.name">Accept-Encoding</stringProp>
-                    <stringProp name="Header.value">gzip, deflate</stringProp>
-                  </elementProp>
-                  <elementProp name="User-Agent" elementType="Header">
-                    <stringProp name="Header.name">User-Agent</stringProp>
-                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept" elementType="Header">
-                    <stringProp name="Header.name">Accept</stringProp>
-                    <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</stringProp>
-                  </elementProp>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="connect_to_server_HTTP_Header" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="connect_to_server_Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-1042659168">&lt;title&gt;Аплана, тестирование программного обеспечения, автоматизация процессов разработки ПО, внедрение инструментов управления жизненным циклом ПО, разработка и сопровождение информационных систем, техническая поддержка.&lt;/title&gt;</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">can&apos;t get to the main page </stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer 2-10 TPS" enabled="true">
+              <collectionProp name="load_profile">
+                <collectionProp name="141283584">
+                  <stringProp name="50">2</stringProp>
+                  <stringProp name="50">2</stringProp>
+                  <stringProp name="1722">60</stringProp>
                 </collectionProp>
-              </HeaderManager>
-              <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="connect_to_server_Assertion" enabled="true">
-                <collectionProp name="Asserion.test_strings">
-                  <stringProp name="-1042659168">&lt;title&gt;Аплана, тестирование программного обеспечения, автоматизация процессов разработки ПО, внедрение инструментов управления жизненным циклом ПО, разработка и сопровождение информационных систем, техническая поддержка.&lt;/title&gt;</stringProp>
+                <collectionProp name="85396772">
+                  <stringProp name="52">4</stringProp>
+                  <stringProp name="52">4</stringProp>
+                  <stringProp name="60">60</stringProp>
                 </collectionProp>
-                <stringProp name="Assertion.custom_message">can&apos;t get to the main page </stringProp>
-                <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-                <boolProp name="Assertion.assume_success">false</boolProp>
-                <intProp name="Assertion.test_type">16</intProp>
-              </ResponseAssertion>
-              <hashTree/>
-              <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer 2-10 TPS" enabled="true">
-                <collectionProp name="load_profile">
-                  <collectionProp name="141283584">
-                    <stringProp name="50">2</stringProp>
-                    <stringProp name="50">2</stringProp>
-                    <stringProp name="1722">60</stringProp>
-                  </collectionProp>
-                  <collectionProp name="85396772">
-                    <stringProp name="52">4</stringProp>
-                    <stringProp name="52">4</stringProp>
-                    <stringProp name="60">60</stringProp>
-                  </collectionProp>
-                  <collectionProp name="85472164">
-                    <stringProp name="54">6</stringProp>
-                    <stringProp name="54">6</stringProp>
-                    <stringProp name="60">60</stringProp>
-                  </collectionProp>
-                  <collectionProp name="85547556">
-                    <stringProp name="56">8</stringProp>
-                    <stringProp name="56">8</stringProp>
-                    <stringProp name="60">60</stringProp>
-                  </collectionProp>
-                  <collectionProp name="-297914684">
-                    <stringProp name="1567">10</stringProp>
-                    <stringProp name="1567">10</stringProp>
-                    <stringProp name="60">60</stringProp>
-                  </collectionProp>
+                <collectionProp name="85472164">
+                  <stringProp name="54">6</stringProp>
+                  <stringProp name="54">6</stringProp>
+                  <stringProp name="60">60</stringProp>
                 </collectionProp>
-              </kg.apc.jmeter.timers.VariableThroughputTimer>
-              <hashTree/>
-            </hashTree>
+                <collectionProp name="85547556">
+                  <stringProp name="56">8</stringProp>
+                  <stringProp name="56">8</stringProp>
+                  <stringProp name="60">60</stringProp>
+                </collectionProp>
+                <collectionProp name="-297914684">
+                  <stringProp name="1567">10</stringProp>
+                  <stringProp name="1567">10</stringProp>
+                  <stringProp name="60">60</stringProp>
+                </collectionProp>
+              </collectionProp>
+            </kg.apc.jmeter.timers.VariableThroughputTimer>
+            <hashTree/>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="click_clients" enabled="true">
-            <boolProp name="TransactionController.includeTimers">false</boolProp>
-            <boolProp name="TransactionController.parent">false</boolProp>
-          </TransactionController>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="click_clients" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port">${PORT}</stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/clients.html</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="click_clients" enabled="true">
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-                <collectionProp name="Arguments.arguments"/>
-              </elementProp>
-              <stringProp name="HTTPSampler.domain"></stringProp>
-              <stringProp name="HTTPSampler.port">${PORT}</stringProp>
-              <stringProp name="HTTPSampler.protocol">http</stringProp>
-              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-              <stringProp name="HTTPSampler.path">/clients.html</stringProp>
-              <stringProp name="HTTPSampler.method">GET</stringProp>
-              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-              <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            </HTTPSamplerProxy>
-            <hashTree>
-              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="click_clients_HTTP_Header" enabled="true">
-                <collectionProp name="HeaderManager.headers">
-                  <elementProp name="Referer" elementType="Header">
-                    <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://${HOST}:${PORT}/</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept-Language" elementType="Header">
-                    <stringProp name="Header.name">Accept-Language</stringProp>
-                    <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
-                  </elementProp>
-                  <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
-                    <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
-                    <stringProp name="Header.value">1</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept-Encoding" elementType="Header">
-                    <stringProp name="Header.name">Accept-Encoding</stringProp>
-                    <stringProp name="Header.value">gzip, deflate</stringProp>
-                  </elementProp>
-                  <elementProp name="User-Agent" elementType="Header">
-                    <stringProp name="Header.name">User-Agent</stringProp>
-                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept" elementType="Header">
-                    <stringProp name="Header.name">Accept</stringProp>
-                    <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</stringProp>
-                  </elementProp>
-                </collectionProp>
-              </HeaderManager>
-              <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="click_clients_Assertion" enabled="true">
-                <collectionProp name="Asserion.test_strings">
-                  <stringProp name="204470364">&lt;h1 class=&quot;page-heading&quot;&gt;Клиенты&lt;/h1&gt;</stringProp>
-                </collectionProp>
-                <stringProp name="Assertion.custom_message"></stringProp>
-                <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-                <boolProp name="Assertion.assume_success">false</boolProp>
-                <intProp name="Assertion.test_type">16</intProp>
-              </ResponseAssertion>
-              <hashTree/>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="RANDOM_CLIENT_Extractor" enabled="true">
-                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-                <stringProp name="RegexExtractor.refname">RANDOM_CLIENT</stringProp>
-                <stringProp name="RegexExtractor.regex">alt=&quot;(.+?)&quot; /&gt;</stringProp>
-                <stringProp name="RegexExtractor.template">$1$</stringProp>
-                <stringProp name="RegexExtractor.default">RANDOM_CLIENT_NOT_FOUND</stringProp>
-                <stringProp name="RegexExtractor.match_number">0</stringProp>
-              </RegexExtractor>
-              <hashTree/>
-            </hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="click_clients_HTTP_Header" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">http://${HOST}:${PORT}/</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="click_clients_Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="204470364">&lt;h1 class=&quot;page-heading&quot;&gt;Клиенты&lt;/h1&gt;</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="RANDOM_CLIENT_Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">RANDOM_CLIENT</stringProp>
+              <stringProp name="RegexExtractor.regex">alt=&quot;(.+?)&quot; /&gt;</stringProp>
+              <stringProp name="RegexExtractor.template">$1$</stringProp>
+              <stringProp name="RegexExtractor.default">RANDOM_CLIENT_NOT_FOUND</stringProp>
+              <stringProp name="RegexExtractor.match_number">0</stringProp>
+            </RegexExtractor>
+            <hashTree/>
           </hashTree>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="click_guestbook" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -940,14 +934,14 @@
             </hashTree>
           </hashTree>
         </hashTree>
-        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="false">
           <boolProp name="displayJMeterProperties">false</boolProp>
           <boolProp name="displayJMeterVariables">true</boolProp>
           <boolProp name="displaySystemProperties">false</boolProp>
         </DebugSampler>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
-          <boolProp name="ResultCollector.error_logging">true</boolProp>
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
@@ -994,7 +988,7 @@
         </CSVDataSet>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC_03_clearGuestbookHistory" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UC_03_clearGuestbookHistory" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -1010,79 +1004,73 @@
       <hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UC_03_clearGuestbookHistory" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
-          <boolProp name="TransactionController.parent">true</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="connect_to_server" enabled="true">
-            <boolProp name="TransactionController.includeTimers">false</boolProp>
-            <boolProp name="TransactionController.parent">false</boolProp>
-          </TransactionController>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="connect_to_server" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="connect_to_server" enabled="true">
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-                <collectionProp name="Arguments.arguments"/>
-              </elementProp>
-              <stringProp name="HTTPSampler.domain"></stringProp>
-              <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol">http</stringProp>
-              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-              <stringProp name="HTTPSampler.path">/</stringProp>
-              <stringProp name="HTTPSampler.method">GET</stringProp>
-              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-              <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            </HTTPSamplerProxy>
-            <hashTree>
-              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="connect_to_server_HTTP_Header" enabled="true">
-                <collectionProp name="HeaderManager.headers">
-                  <elementProp name="Accept-Language" elementType="Header">
-                    <stringProp name="Header.name">Accept-Language</stringProp>
-                    <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
-                  </elementProp>
-                  <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
-                    <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
-                    <stringProp name="Header.value">1</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept-Encoding" elementType="Header">
-                    <stringProp name="Header.name">Accept-Encoding</stringProp>
-                    <stringProp name="Header.value">gzip, deflate</stringProp>
-                  </elementProp>
-                  <elementProp name="User-Agent" elementType="Header">
-                    <stringProp name="Header.name">User-Agent</stringProp>
-                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0</stringProp>
-                  </elementProp>
-                  <elementProp name="Accept" elementType="Header">
-                    <stringProp name="Header.name">Accept</stringProp>
-                    <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</stringProp>
-                  </elementProp>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="connect_to_server_HTTP_Header" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="connect_to_server_Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-1042659168">&lt;title&gt;Аплана, тестирование программного обеспечения, автоматизация процессов разработки ПО, внедрение инструментов управления жизненным циклом ПО, разработка и сопровождение информационных систем, техническая поддержка.&lt;/title&gt;</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message">can&apos;t get to the main page </stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer 0.05 TPS" enabled="true">
+              <collectionProp name="load_profile">
+                <collectionProp name="-789539956">
+                  <stringProp name="1475715">0.05</stringProp>
+                  <stringProp name="1475715">0.05</stringProp>
+                  <stringProp name="50547">300</stringProp>
                 </collectionProp>
-              </HeaderManager>
-              <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="connect_to_server_Assertion" enabled="true">
-                <collectionProp name="Asserion.test_strings">
-                  <stringProp name="-1042659168">&lt;title&gt;Аплана, тестирование программного обеспечения, автоматизация процессов разработки ПО, внедрение инструментов управления жизненным циклом ПО, разработка и сопровождение информационных систем, техническая поддержка.&lt;/title&gt;</stringProp>
-                </collectionProp>
-                <stringProp name="Assertion.custom_message">can&apos;t get to the main page </stringProp>
-                <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-                <boolProp name="Assertion.assume_success">false</boolProp>
-                <intProp name="Assertion.test_type">16</intProp>
-              </ResponseAssertion>
-              <hashTree/>
-              <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer 0.05 TPS" enabled="true">
-                <collectionProp name="load_profile">
-                  <collectionProp name="-789539956">
-                    <stringProp name="1475715">0.05</stringProp>
-                    <stringProp name="1475715">0.05</stringProp>
-                    <stringProp name="50547">300</stringProp>
-                  </collectionProp>
-                </collectionProp>
-              </kg.apc.jmeter.timers.VariableThroughputTimer>
-              <hashTree/>
-            </hashTree>
+              </collectionProp>
+            </kg.apc.jmeter.timers.VariableThroughputTimer>
+            <hashTree/>
           </hashTree>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="click_guestbook" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -1280,7 +1268,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
           </hashTree>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
-          <boolProp name="ResultCollector.error_logging">true</boolProp>
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
@@ -1317,7 +1305,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second total" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second total" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1365,7 +1353,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second errors" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second errors" enabled="false">
         <boolProp name="ResultCollector.error_logging">true</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1413,7 +1401,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - PerfMon Metrics Collector" enabled="true">
+      <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - PerfMon Metrics Collector" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1465,11 +1453,17 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
             <stringProp name="66952">CPU</stringProp>
             <stringProp name="3599307">user</stringProp>
           </collectionProp>
-          <collectionProp name="-211147206">
+          <collectionProp name="1438573215">
             <stringProp name="-1204607085">localhost</stringProp>
             <stringProp name="1600768">4444</stringProp>
             <stringProp name="-1993889503">Memory</stringProp>
-            <stringProp name="-790024919">unit=mb:used</stringProp>
+            <stringProp name="-278579165">usedperc</stringProp>
+          </collectionProp>
+          <collectionProp name="1281866940">
+            <stringProp name="-1204607085">localhost</stringProp>
+            <stringProp name="1600768">4444</stringProp>
+            <stringProp name="-274342153">Network I/O</stringProp>
+            <stringProp name="-380804057">unit=kb:bytesrecv</stringProp>
           </collectionProp>
           <collectionProp name="-1505545751">
             <stringProp name="-1204607085">localhost</stringProp>
@@ -1480,7 +1474,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         </collectionProp>
       </kg.apc.jmeter.perfmon.PerfMonCollector>
       <hashTree/>
-      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1514,10 +1508,10 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Анастасия\Documents\GitHub\jmeter_project\logs\summary_report.csv</stringProp>
+        <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1562,7 +1556,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1598,6 +1592,64 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         </objProp>
         <stringProp name="filename"></stringProp>
       </ResultCollector>
+      <hashTree/>
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+        <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="testName" elementType="Argument">
+              <stringProp name="Argument.name">testName</stringProp>
+              <stringProp name="Argument.value">Test</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="nodeName" elementType="Argument">
+              <stringProp name="Argument.name">nodeName</stringProp>
+              <stringProp name="Argument.value">Test-Node</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxDBHost" elementType="Argument">
+              <stringProp name="Argument.name">influxDBHost</stringProp>
+              <stringProp name="Argument.value">localhost</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxDBPort" elementType="Argument">
+              <stringProp name="Argument.name">influxDBPort</stringProp>
+              <stringProp name="Argument.value">8086</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxDBUser" elementType="Argument">
+              <stringProp name="Argument.name">influxDBUser</stringProp>
+              <stringProp name="Argument.value">jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxDBPassword" elementType="Argument">
+              <stringProp name="Argument.name">influxDBPassword</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxDBDatabase" elementType="Argument">
+              <stringProp name="Argument.name">influxDBDatabase</stringProp>
+              <stringProp name="Argument.value">jmeterTest2</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="retentionPolicy" elementType="Argument">
+              <stringProp name="Argument.name">retentionPolicy</stringProp>
+              <stringProp name="Argument.value">autogen</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="samplersList" elementType="Argument">
+              <stringProp name="Argument.name">samplersList</stringProp>
+              <stringProp name="Argument.value">.*</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="useRegexForSamplerList" elementType="Argument">
+              <stringProp name="Argument.name">useRegexForSamplerList</stringProp>
+              <stringProp name="Argument.value">true</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </elementProp>
+        <stringProp name="classname">rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient</stringProp>
+      </BackendListener>
       <hashTree/>
     </hashTree>
   </hashTree>
