@@ -1142,12 +1142,11 @@
             <hashTree>
               <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="DELETE_BOOK_Assertion" enabled="true">
                 <stringProp name="scriptLanguage">groovy</stringProp>
-                <stringProp name="parameters">${FOUND_COMMENTS_matchNr}</stringProp>
+                <stringProp name="parameters"></stringProp>
                 <stringProp name="filename"></stringProp>
                 <stringProp name="cacheKey">true</stringProp>
                 <stringProp name="script">import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 
 String response = SampleResult.getResponseDataAsString();
 String REGEX = &quot;(^[0-9]+) updates&quot;;
@@ -1155,9 +1154,13 @@ String REGEX = &quot;(^[0-9]+) updates&quot;;
 Pattern pattern = Pattern.compile(REGEX);
 Matcher matcher = pattern.matcher(response);
 
-if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
-	log.error(&quot;Error, comments were not deleted&quot;);
+def n_comments = vars.get(&quot;FOUND_COMMENTS_matchNr&quot;) as int;
+
+if(!matcher.find() || (matcher.group(1).toInteger() &lt; n_comments)) {
+	AssertionResult.setFailure(true);
+	AssertionResult.setFailureMessage(&quot;Error, comments were not deleted&quot;);
 }
+
 </stringProp>
               </JSR223Assertion>
               <hashTree/>
@@ -1165,7 +1168,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
           </hashTree>
         </hashTree>
       </hashTree>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1202,7 +1205,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">${HOME_DIRECTORY}/logs/TPS_${CURRENT_TIME}.csv</stringProp>
+        <stringProp name="filename">${HOME_DIRECTORY}\logs\log_${CURRENT_TIME}.csv</stringProp>
         <longProp name="interval_grouping">1000</longProp>
         <boolProp name="graph_aggregated">false</boolProp>
         <stringProp name="include_sample_labels"></stringProp>
@@ -1213,7 +1216,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - PerfMon Metrics Collector" enabled="true">
+      <kg.apc.jmeter.perfmon.PerfMonCollector guiclass="kg.apc.jmeter.vizualizers.PerfMonGui" testclass="kg.apc.jmeter.perfmon.PerfMonCollector" testname="jp@gc - PerfMon Metrics Collector" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1286,7 +1289,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         </collectionProp>
       </kg.apc.jmeter.perfmon.PerfMonCollector>
       <hashTree/>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Log" enabled="true">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Log" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1323,7 +1326,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <stringProp name="filename">${HOME_DIRECTORY}\logs\log_${CURRENT_TIME}.csv</stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Errors" enabled="true">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Errors" enabled="false">
         <boolProp name="ResultCollector.error_logging">true</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1400,7 +1403,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <stringProp name="filename">${HOME_DIRECTORY}/logs/summary_report_${CURRENT_TIME}.xml</stringProp>
       </ResultCollector>
       <hashTree/>
-      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1445,7 +1448,7 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <boolProp name="exclude_checkbox_state">false</boolProp>
       </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1482,62 +1485,57 @@ if(matcher.find() &amp;&amp; (matcher.group(1) &lt; args[0])) {
         <stringProp name="filename">${HOME_DIRECTORY}/logs/aggregate_report_${CURRENT_TIME}.csv</stringProp>
       </ResultCollector>
       <hashTree/>
-      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="false">
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener " enabled="false">
         <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
-            <elementProp name="testName" elementType="Argument">
-              <stringProp name="Argument.name">testName</stringProp>
-              <stringProp name="Argument.value">Test</stringProp>
+            <elementProp name="influxdbMetricsSender" elementType="Argument">
+              <stringProp name="Argument.name">influxdbMetricsSender</stringProp>
+              <stringProp name="Argument.value">org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSender</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="nodeName" elementType="Argument">
-              <stringProp name="Argument.name">nodeName</stringProp>
-              <stringProp name="Argument.value">Test-Node</stringProp>
+            <elementProp name="influxdbUrl" elementType="Argument">
+              <stringProp name="Argument.name">influxdbUrl</stringProp>
+              <stringProp name="Argument.value">http://localhost:8086/write?db=jmeterTest</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="influxDBHost" elementType="Argument">
-              <stringProp name="Argument.name">influxDBHost</stringProp>
-              <stringProp name="Argument.value">localhost</stringProp>
+            <elementProp name="application" elementType="Argument">
+              <stringProp name="Argument.name">application</stringProp>
+              <stringProp name="Argument.value">application name</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="influxDBPort" elementType="Argument">
-              <stringProp name="Argument.name">influxDBPort</stringProp>
-              <stringProp name="Argument.value">8086</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="influxDBUser" elementType="Argument">
-              <stringProp name="Argument.name">influxDBUser</stringProp>
+            <elementProp name="measurement" elementType="Argument">
+              <stringProp name="Argument.name">measurement</stringProp>
               <stringProp name="Argument.value">jmeter</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="influxDBPassword" elementType="Argument">
-              <stringProp name="Argument.name">influxDBPassword</stringProp>
-              <stringProp name="Argument.value"></stringProp>
+            <elementProp name="summaryOnly" elementType="Argument">
+              <stringProp name="Argument.name">summaryOnly</stringProp>
+              <stringProp name="Argument.value">false</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="influxDBDatabase" elementType="Argument">
-              <stringProp name="Argument.name">influxDBDatabase</stringProp>
-              <stringProp name="Argument.value">jmeterTest2</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="retentionPolicy" elementType="Argument">
-              <stringProp name="Argument.name">retentionPolicy</stringProp>
-              <stringProp name="Argument.value">autogen</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="samplersList" elementType="Argument">
-              <stringProp name="Argument.name">samplersList</stringProp>
+            <elementProp name="samplersRegex" elementType="Argument">
+              <stringProp name="Argument.name">samplersRegex</stringProp>
               <stringProp name="Argument.value">.*</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="useRegexForSamplerList" elementType="Argument">
-              <stringProp name="Argument.name">useRegexForSamplerList</stringProp>
-              <stringProp name="Argument.value">true</stringProp>
+            <elementProp name="percentiles" elementType="Argument">
+              <stringProp name="Argument.name">percentiles</stringProp>
+              <stringProp name="Argument.value">99;95;90</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="testTitle" elementType="Argument">
+              <stringProp name="Argument.name">testTitle</stringProp>
+              <stringProp name="Argument.value">Test name</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="eventTags" elementType="Argument">
+              <stringProp name="Argument.name">eventTags</stringProp>
+              <stringProp name="Argument.value"></stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
         </elementProp>
-        <stringProp name="classname">rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient</stringProp>
+        <stringProp name="classname">org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient</stringProp>
       </BackendListener>
       <hashTree/>
     </hashTree>
